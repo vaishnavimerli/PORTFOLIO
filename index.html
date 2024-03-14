@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Protfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+   <nav id="desktop-nav">
+       <div class="logo">Vaishnavi Merli</div>
+       <div>
+           <ul class="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+
+
+
+           </ul>
+       </div>
+
+   </nav>
+   <nav id="hamburger-nav">
+    <div class="logo">Vaishnavi Merli</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+
+        </div>
+        <div class="menu-links"div>
+           <li><a href="#About"onclick="toggleMenu()">About</a></li>
+           <li><a href="#project"onclick="toggleMenu()">Skills</a></li>
+           <li><a href="#project"onclick="toggleMenu()">Project</a></li>
+           <li><a href="#Contact"onclick="toggleMenu()">Contact</a></li>
+
+    </div>
+   </nav>
+   <section id="profile">
+       <div class="section__pic-container">
+           <img src="/vaish photo.jpeg" alt="vaishnavi merli Profile picture">
+       </div>
+       <div class="section__text">
+           <p class="section__text__p1">Hello I'm</p>
+           <h1 class="title">vaishnavi merli</h1>
+           <p class="section__text__p2">Fresher</p>
+           <div class="btn-container"></div>
+           <button class="btn btn-color-2"
+            onclick="window.open('/vaish software resume.pdf')">Download Cv</button>
+            <button class="btn btn-color-1"
+            onclick="location.href='/#Contact'">Contact Info</button>
+       </div>
+       <div id="socials-container">
+        <img src="/linkedin.png" alt="My LinkedIn Profile" 
+        class="icon" onclick="location.href='https://www.linkedin.com/in/vaishnavi-merli-846594289'">
+
+        <img src="/github.png" alt="My Github Profile" 
+        class="icon" onclick="location.href='https://github.com/vaishnavimerli'">
+       </div>
+   </section>
+   <section id="About">
+       <p class="section__text__p1">Get To Know More</p>
+       <h1 class="title">About Me</h1>
+       <div class="section-container">
+           <div class="section__pic-container">
+               <img src="/image.jpeg" alt="profile picture" class="about-pic">
+           </div>
+           <div class="about-details-container">
+               <div class="about-containers">
+                   <div class="details-container">
+                       <img src="/education image.jpeg" alt="experience icon"
+                       class="icon">
+                       <h3>Experience</h3>
+                       <p>Fresher <br></p>
+                   </div>
+                   <div class="details-container">
+                   <img src="/education image.jpeg" alt="education icon" class="icon">
+                    <h3>Education</h3>
+                    <p>B.E(Bachelor of Engineering) .Bachelors Degree <br>
+                    Certification Course-Full Stack Web Developer(Java)</p> 
+                   </div>
+               </div>
+               <div class="text-container">
+                   <p>
+                    I am a person who is positive about every aspect of life. 
+                    There are many things 
+                    I like to do, to see, and to experience new things. 
+                    I like to read, I like to write; I like to cook, 
+                    I like to learn new techniques; 
+                    I like to improve my skills and work on it 
+                    To work in Professional competent and challenging surroundings that will facilitate me to utilize my
+                    skills knowledge and potential to enhance the company's stature and help me pursue better
+                    oppertunities in future.   
+                   </p>
+               </div>
+           </div>
+       </div>
+       <img src="/arrow.jpeg" alt="arrow icon" class="icon arrow"
+       onclick="location.href='/#Skills'"
+       >
+
+   </section>
+   <section id="Skills">
+       <p class="section__text_-p1"Explore My></p>
+       <h1 class="title">Skills</h1>
+       <div class="experience-details-container">
+           <div class="about-containers">
+               <div class="details-containers">
+                   <h2 class="skills-title">Full Stack Web Developer</h2>
+                   <div class="article-container">
+                       <article>
+                           <img src="/checkmark.jpeg" alt="Skills icon"
+                           class="icon">
+                   <div>
+                  <h3>HTML</h3>
+                   </div>
+                       </article>
+                       <article>
+                        <img src="/checkmark.jpeg" alt="Skills icon"
+                        class="icon">
+                <div>
+               <h3>CSS</h3>
+                </div>
+                    </article>
+                    <article>
+                        <img src="/checkmark.jpeg" alt="Skills icon"
+                        class="icon">
+                <div>
+               <h3>Basic UI/UX</h3>
+                </div>
+                    </article>
+                    <article>
+                        <img src="/checkmark.jpeg" alt="Skills icon"
+                        class="icon">
+                <div>
+               <h3>MY SQL</h3>
+                </div>
+                    </article>
+                    <article>
+                        <img src="/checkmark.jpeg" alt="Skills icon"
+                        class="icon">
+                <div>
+               <h3>CORE JAVA,JDBC,JEE</h3>
+                </div>
+                    </article>
+                    <article>
+                        <img src="/checkmark.jpeg" alt="Skills icon"
+                        class="icon">
+                <div>
+               <h3>JAVA SCRIPT</h3>
+                </div>
+                    </article>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <img src="/arrow.jpeg" alt="arrow icon" class="icon arrow"
+       onclick="location.href='/#project'"
+       >
+   </section>
+   <section id="project">
+       <p class="section__text__p1">Browse My Recent</p>
+       <h1 class="title">Projects</h1>
+
+       <div class="experience-details-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="/project image.webp" alt="project 1" class="project.img">
+                </div>
+                <h2 class="experience-subtitle project-title">Mini Project</h2>
+                <div class="btn-container">
+                    <p>SMART MIXER GRINDER USING BLUETOOTH <br></p>
+                    <p>
+                        Technologies: Arduino uno , Microcontroller 8051, Bluetooth module(Hc-05), Dc motor[IOT Based Project]
+                   1.	A Smart Mixer Grinder using Bluetooth can be designed by intergrating a Bluetooth module with the mixer grinder and creating a corresponding mobile app.
+
+                   2.	The app would allow the users to control the mixer remotely for adjusting the speed , time duration or even accessing reciepes.
+                        Bluetooth communication facilities the connection between the mobile device and the mixer grinder
+
+                    </p>
+
+
+                <h2 class="experience-subtitle project-title">Main Project</h2>
+                <div class="btn-container">
+                    <p>GESTURE CONTROLLED ROBOT USING ARDUINO <br></p>
+                    <p>
+                            Gesture recognition is a topic in science and language technology with the
+                            goal of interpreting human gestures via mathematical algorithms. Gestures can
+                            originate from any bodily motion or state but commonly originate from the face
+                            or hand. Users can use simple gestures to control or interact with devices without
+                            physically touching them. Many approaches have been made using cameras and
+                            computer vision algorithms to interpret sign languages. However, the
+                            identification and recognition of posture, gait, proxemics, and human behaviors
+                            is also the subject of gesture recognition techniques.
+                    </p>
+
+                </div>
+            </div>
+            </div>
+        </div>
+        <img src="/arrow.jpeg" alt="arrow icon" class="icon arrow"
+        onclick="location.href='/#Contact'"
+        >  
+   </section>
+   <section id="Contact">
+       <p class="section__text__p1">
+       Get In Touch
+       </p>
+   <h1 class="title">Contact Me</h1>
+   <div class="contact-info-upper-container">
+       <div class="contact-info-container">
+           <img src="/e mail.jpeg" alt="mail icon" class="icon contact-icon">
+           <p>
+               <a href="mailto:vaishnavimerli@gmail.com">vaishnavimerli@gmail.com</a>
+           </p>
+       </div>
+       <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p>
+                    <a href="https://www.linkedin.com/in/vaishnavi-merli-846594289">Linkedin</a>
+
+                </p>
+            </div>
+   </div>
+   </section>
+   <footer>
+
+       <p>Copyright &#169;2023 Vaishnavi Merli.All Rights Reserved</p>
+   </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
